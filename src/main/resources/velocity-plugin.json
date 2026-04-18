@@ -1,0 +1,17 @@
+{
+  "id": "rxnobots",
+  "name": "RxNoBots",
+  "version": "1.0.0",
+  "description": "The best plugin for eliminating bots in Velocity using LimboAPI",
+  "url": "https://github.com/amhunter1/NoMoreBots",
+  "authors": [
+    "rompix"
+  ],
+  "dependencies": [
+    {
+      "id": "limboapi",
+      "optional": false
+    }
+  ],
+  "main": "com.rompix.rxnobots.RxNoBotsPlugin"
+}

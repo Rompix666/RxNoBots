@@ -1,0 +1,122 @@
+# RxNoBots Плагин - Конфигурация
+version: 1.0
+
+# Общие настройки
+general:
+  language: "ru"           # tr, en
+  debug: false             # включи true для диагностики, потом выключи
+  plugin-prefix: "&8[&4RxNoBots&8] "
+
+# Настройки базы данных
+database:
+  type: "sqlite"           # sqlite, mysql
+  sqlite:
+    file: "nomorebots.db"
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "nomorebots"
+    username: "root"
+    password: "password"
+    connection-pool-size: 5
+
+# Настройки Limbo сервера
+limbo:
+  enabled: true
+  host: "127.0.0.1"
+  port: 25566
+  auto-start: true
+  max-players: 100
+  brand-name: "&4RxNoBots &7Verification"
+
+# Система проверки ботов (Chat + Movement гибрид)
+verification:
+  enabled: true
+  type: "HYBRID"           # HYBRID, CHAT_ONLY, MOVEMENT_ONLY
+
+  # Настройки проверки кодом
+  code:
+    length: 4              # 4 символа надёжнее, чем 3
+    characters: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    case-sensitive: false
+
+  # Настройки проверки движением
+  movement:
+    directions:
+      - "up:2"
+      - "left:2"
+    random: true
+    min-duration: 2        # увеличил до 2 секунд (было 1)
+    max-duration: 4        # увеличил до 4 секунд (было 3)
+    available-directions:
+      - "up"
+      - "down"
+      - "left"
+      - "right"
+    angles:
+      up:
+        pitch-min: -90.0
+        pitch-max: -30.0
+      down:
+        pitch-min: 30.0
+        pitch-max: 90.0
+      left:
+        yaw-min: 135.0
+        yaw-max: 225.0
+      right:
+        yaw-min: -45.0
+        yaw-max: 45.0
+    tolerance: 15.0
+    response-timeout: 30   # уменьшил до 30 секунд (было 60)
+    kick-on-timeout: true
+
+  # Настройки попыток
+  attempts:
+    max-attempts: 3
+    max-sessions: 3
+    reset-on-success: true
+
+  # Настройки таймаута
+  timeout:
+    duration: 600          # 10 минут
+    persistent: true
+
+  # Настройки успешной проверки
+  success:
+    action: "DISCONNECT"   # или "SERVER" если есть сервер назначения
+    target-server: "lobby"
+    remember-duration: 86400
+
+  # Система кулдауна (на основе пользователя + IP)
+  cooldown:
+    track-by-user: true
+    track-by-ip: true
+    duration: 86400        # 24 часа
+
+# Система обхода проверки
+bypass:
+  permission: "nomorebots.bypass"
+  ip-whitelist:
+    - "127.0.0.1"
+    - "localhost"
+  enabled: true
+
+# Админ команды
+commands:
+  admin-permission: "nomorebots.admin"
+  aliases:
+    - "nmb"
+    - "botcheck"
+
+# Настройки производительности
+performance:
+  async-database: true
+  cleanup-interval: 3600
+  max-sessions: 500
+  session-timeout: 300
+
+# Настройки безопасности
+security:
+  max-verification-time: 120
+  anti-spam-delay: 1000
+  log-attempts: true
