@@ -10,6 +10,7 @@
   [![bStats](https://img.shields.io/badge/bStats-28400-blue)](https://bstats.org/plugin/velocity/RxNoBots/28400)
   [![Author](https://img.shields.io/badge/Author-rompix-9cf)](https://github.com/rompix)
   [![Discord](https://img.shields.io/discord/972218989235298385?color=5865F2&label=Discord&logo=discord&logoColor=red)](https://discord.com/invite/PNp3S3sanv)
+  [![Telegram](https://img.shields.io/badge/Telegram-@RomixerX-26A5E4?logo=telegram&logoColor=red)](https://t.me/RomixerX)
   
   ---
 
@@ -179,6 +180,7 @@
   [![bStats](https://img.shields.io/badge/bStats-28400-blue)](https://bstats.org/plugin/velocity/RxNoBots/28400)
   [![Author](https://img.shields.io/badge/Author-rompix-9cf)](https://github.com/rompix)
   [![Discord](https://img.shields.io/discord/972218989235298385?color=5865F2&label=Discord&logo=discord&logoColor=red)](https://discord.com/invite/PNp3S3sanv)
+  [![Telegram](https://img.shields.io/badge/Telegram-@RomixerX-26A5E4?logo=telegram&logoColor=red)](https://t.me/RomixerX)
 
 ---
 
