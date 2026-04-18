@@ -168,6 +168,7 @@
 
 <details>
 <summary>EN</summary>
+  
 # **RxNoBots** 🤖🚫
 ### Smart bot protection for Velocity servers using chat & head movement verification
 
