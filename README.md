@@ -2,7 +2,7 @@
 <summary>RU</summary>
   
   # **RxNoBots** 🤖🚫
-  ### Умная защита Velocity-сервера от ботов с помощью чат- и движенческой верификации
+  ### Умная защита Velocity-сервера от ботов с помощью чата и верификации движения
 
   [![Velocity](https://img.shields.io/badge/Velocity-3.5.0+-00A9E0?logo=velocity&logoColor=white)](https://velocitypowered.com)
   [![LimboAPI](https://img.shields.io/badge/LimboAPI-required-important)](https://github.com/Elytrium/LimboAPI)
