@@ -6,7 +6,7 @@
 [![Velocity](https://img.shields.io/badge/Velocity-3.5.0+-00A9E0?logo=velocity&logoColor=white)](https://velocitypowered.com)
 [![LimboAPI](https://img.shields.io/badge/LimboAPI-required-important)](https://github.com/Elytrium/LimboAPI)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Author](https://img.shields.io/badge/Author-rompix-9cf)](https://github.com/rompix)
+[![Author](https://img.shields.io/badge/Author-Rompix666-9cf)](https://github.com/Rompix666)
 [![Discord](https://img.shields.io/discord/972218989235298385?label=Discord&logo=discord)](https://discord.com/invite/PNp3S3sanv)
 [![Telegram](https://img.shields.io/badge/Telegram-@RomixerX-26A5E4?logo=telegram)](https://t.me/RomixerX)
 
