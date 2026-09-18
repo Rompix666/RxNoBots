@@ -1,4 +1,4 @@
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Hs0OjhUJ-EQ" title="Проигрыватель YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube-nocookie.com/embed/Hs0OjhUJ-EQ
 
 # RxNoBots 🤖🚫
 > Advanced bot protection for Velocity servers using chat & movement verification with elegant purple gradient styling
